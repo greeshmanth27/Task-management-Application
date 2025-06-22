@@ -15,7 +15,7 @@ const TaskFilters = ({ filter, setFilter, searchTerm, setSearchTerm, sortBy, set
               placeholder="Search tasks..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="input-field pl-10"
+              className="input-field pl-10 rounded-md color-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-700 focus:ring-blue-500 focus:border-blue-500 w-full"
             />
           </div>
         </div>
@@ -46,8 +46,8 @@ const TaskFilters = ({ filter, setFilter, searchTerm, setSearchTerm, sortBy, set
 
         {/* Sort Dropdown */}
         <div className="flex items-center space-x-2">
-          <SortAsc className="h-4 w-4 text-gray-500" />
-          <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className="input-field min-w-0 w-auto">
+          <SortAsc className="h-4 w-4 rounded-md "  />
+          <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className="input-field min-w-0  rounded-md color-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-700 focus:ring-blue-500 focus:border-blue-500">
             <option value="date">Sort by Date</option>
             <option value="priority">Sort by Priority</option>
             <option value="alphabetical">Sort Alphabetically</option>
