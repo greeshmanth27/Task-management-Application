@@ -12,7 +12,7 @@ const EmptyState = () => {
       </p>
       <div className="flex items-center justify-center space-x-2 text-blue-600 dark:text-blue-400">
         <Plus className="h-4 w-4" />
-        <span className="text-sm font-medium">Add your first task above</span>
+        <span className="text-sm font-medium">Add your first task above by clicking add task </span>
       </div>
     </div>
   )
