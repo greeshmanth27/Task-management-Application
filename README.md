@@ -62,6 +62,11 @@ src/
 └── index.css           # Global styles and Tailwind imports
 \`\`\`
 
+
+![image](https://github.com/user-attachments/assets/917b9432-10b9-4142-a6a0-7e48a836fc2a)
+
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
