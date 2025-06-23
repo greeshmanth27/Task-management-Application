@@ -2,6 +2,12 @@
 
 A modern, feature-rich task management application built with React 18 and the latest web technologies. This application helps users organize their daily tasks with a clean, intuitive interface and powerful features.
 
+
+
+## Deployment Link
+
+https://task-management-application-five-theta.vercel.app/
+
 ## 🚀 Features
 
 ### Core Features
