@@ -106,6 +106,11 @@ src/
 npm run build
 \`\`\`
 
+If you're experiencing dependency resolution errors, install these exact versions to ensure compatibility:
+
+<pre><code># Install core React packages npm install react@18.2.0 react-dom@18.2.0 # Install date handling and date picker npm install date-fns@2.30.0 react-day-picker@8.10.1 # Install development tools npm install -D vite@4.4.5 @vitejs/plugin-react@4.0.3 # Install Tailwind CSS and PostCSS dependencies npm install -D tailwindcss@3.3.3 postcss@8.4.27 autoprefixer@10.4.14 </code></pre>
+✅ This setup avoids common ERESOLVE dependency conflicts with React 19 and date-fns@4.x.
+
 The built files will be in the `dist` directory, ready for deployment.
 
 ## 🎯 Usage Guide
